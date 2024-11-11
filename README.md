@@ -1,3 +1,3 @@
-# Webgame for Rock, Paper, Scissors, Spock and Lizard!
+## Webgame for Rock, Paper, Scissors, Spock and Lizard!
 
-### Just click [here]() to play the game! 
+### Just click [here](https://davidbistron.github.io/Rock-Paper-Scissors-Spock-Lizard/) to play the game! 
