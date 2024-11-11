@@ -1,0 +1,97 @@
+/* body and font */
+body {
+  background-color: #2e2c2c;
+  color: #89f41e;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* flexbox for rock, paper, scissors, spock and lizard */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* title */
+.title {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/* icons: rock, paper, scissors, spock, lizard */
+.move-icon {
+  font-size: 2em;
+}
+
+/* media queries: more px = icons are bigger */
+@media only screen and (min-width: 800px) {
+  .move-icon {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .move-icon {
+    font-size: 4em;
+  }
+}
+
+/* btn: rock, paper, scissors, spock, lizard */
+.move-button {
+  align-self: center;
+  background-color: #2e2c2c;
+  border: 0.4em solid #89f41e;
+  height: 12vw;
+  border-radius: 10vw;
+  margin: 0.5em;
+  cursor: pointer;
+  width: 13em;
+}
+
+/* result statement */
+.result {
+  font-size: 150%;
+}
+
+/* move and score statement */
+.js-move-human, .js-move-computer, .js-score {
+  font-size: 100%;
+}
+
+/* btn: reset and refresh */ 
+.reset-score-button, .refresh-page-button {
+  background-color: #89f41e;
+  border: none;
+  border-radius: 10vw;
+  font-size: 1em;
+  padding: 1em;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0.5em;
+}
+
+.reset-score-button span, .refresh-page-button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.reset-score-button span:after, .refresh-page-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.reset-score-button:hover span, .refresh-page-button:hover span {
+  padding-right: 2.5vw;
+}
+
+.reset-score-button:hover span:after, .refresh-page-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

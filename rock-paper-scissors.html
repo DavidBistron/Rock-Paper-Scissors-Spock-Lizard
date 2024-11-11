@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!-- Important Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Game Rock-Paper-Scissors-Spock-Lizard">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="David Bistron">
+    <meta name="viewport" content="width=device-width" content="height=device-height" initial-scale="1.0">
+
+    <!-- Import of external css sheet -->
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- Title and Favicon -->
+    <title>Rock-Paper-Scissors</title>
+    <link rel="icon" type="image/x-icon" href= &#128400>
+  </head>
+
+  <body>        
+    <!-- Heading -->        
+    <h3 class="title">
+      Rock Paper Scissors Spock Lizard
+    </h3>
+
+    <!-- Flex container -->
+    <div class="flex-container">
+
+      <!-- Button for rock selection -->
+      <div>
+        <button onclick="
+            playGame('Rock');"
+            class="move-button">
+            <div class="move-icon">&#9994;</div>
+        </button>
+      </div>
+
+      <!-- Button for paper selection -->
+      <div>
+      <button onclick="
+          playGame('Paper');"
+          class="move-button">
+          <div class="move-icon">&#128400;</div>
+      </button>
+      </div>
+
+      <!-- Button for scissors selection -->
+      <div>
+      <button onclick="
+          playGame('Scissors');"
+          class="move-button">
+          <div class="move-icon">&#9996;</div>
+      </button>
+      </div>
+
+      <!-- Button for spock selection -->
+      <div>
+      <button onclick="
+          playGame('Spock');"
+          class="move-button">
+          <div class="move-icon">&#128406;</div>
+      </button>
+      </div>
+
+      <!-- Button for lizard selection -->
+      <div>
+      <button onclick="
+          playGame('Lizard');"
+          class="move-button">
+          <div class="move-icon">&#129295;</div> 
+      </button>
+      </div>
+    </div>
+
+    <!-- Display result on website -->
+    <p class="js-result result"></p>
+
+    <!-- Display picked moves of human on website -->
+    <p class="js-move-human"></p>
+
+    <!-- Display picked moves of computer on website -->
+    <p class="js-move-computer"></p>
+
+    <!-- Display score on website -->
+    <p class="js-score score"></p>
+
+    <!-- Button for resetting score -->
+    <div>
+        <button onclick="
+            resetScore();"
+            class="reset-score-button">
+            <span>Reset Score</span>
+        </button>
+    </div>
+
+    <!-- Button for refreshing page -->
+    <div>
+        <button onclick="
+            refreshPage();"
+            class="refresh-page-button">
+            <span>Refresh Page</span>
+        </button>
+    </div>
+
+    <!-- Integration of external script -->
+    <script src="srcript.js"></script>
+  </body>
+</html>
