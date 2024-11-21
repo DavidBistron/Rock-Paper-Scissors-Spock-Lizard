@@ -5,6 +5,14 @@ Game developed with <mark><b>HTML</b></mark>, <mark><b>CSS</b></mark> and <mark>
 To play the game: Just click [here](https://davidbistron.github.io/Rock-Paper-Scissors-Spock-Lizard/)
 <p>If the css style is not loaded directly, please refresh the page and it should appear 🔮 </p> 
 
+<hr>
+### Screenshots
+<img width="943" alt="RPS_ScreenShot" src="https://github.com/user-attachments/assets/d9274fa5-008c-46fa-99f3-072e8491020b">
+* Start Screen *
+
+<img width="944" alt="RPS_ScreenShot2" src="https://github.com/user-attachments/assets/45867c22-cc4e-4b82-afd1-0acb066c6693">
+* Game Screen *
+
 Inspired by <b>supersimpledev</b> <br>
 - https://supersimple.dev <br>
 - https://www.youtube.com/watch?v=EerdGm-ehJQ 
