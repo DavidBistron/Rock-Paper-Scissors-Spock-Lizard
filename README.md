@@ -1,4 +1,4 @@
-### Webgame for Rock, Paper, Scissors ... extended by Spock and Lizard! :neckbeard:
+### Webgame for Rock, Paper, Scissors ... enhanced with Spock and Lizard! :neckbeard:
 
 Game developed with <mark><b>HTML</b></mark>, <mark><b>CSS</b></mark> and <mark><b>JavaScript</b></mark>!
 
